@@ -74,7 +74,7 @@ package divideconquer;
 	public int xPartition(
 	        final Location[] a, final int first, final int last) {
 		
-		Location pivot = a[last]; // pivot
+		Location pivot = a[last]; // pivot//test
 		int pIndex = last;
 		int i = first - 1;
 		Location temp; // Temporarily store value for position transformation
